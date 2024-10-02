@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css" />
+
+    <!-- Poppins  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Biryani&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Actor&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="nav">
+        <img
+          src="../images/word mark(orange).svg"
+          height="100px"
+          style="padding-top: 15px"
+        />
+        <!-- <h2>Logo</h2> -->
+        <div class="nav2">
+          <a href="#">Home</a>
+          <a href="#about">About</a>
+          <a href="../html/signup.html">Sign Up</a>
+          <a href="#contact">Contact Us</a>
+          <button class="topbtn"><a href="../php/login.php">Sign In</a></button>
+
+          <i class="ri-menu-3-fill"></i>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="left">
+          <h1>Making Communities <span id="btr">Better</span></h1>
+          <h2>Join <span id="typing"></span></h2>
+          <p>
+            Welcome to our Integrated E-Complaint Platform! Streamline your
+            complaint management process with our user-friendly solution.
+            Submit, track, and resolve complaints seamlessly in residential and
+            commercial buildings. Enhance transparency, improve efficiency, and
+            boost tenant satisfaction. Join us in revolutionizing complaint
+            resolution today!
+          </p>
+          <!-- <button>Explore Now</button> -->
+        </div>
+        <div class="right">
+          <img
+            id="bulb"
+            src="../images/bulb off.svg"
+            style="height: 600px; margin-left: 10rem"
+          />
+        </div>
+      </div>
+    
+
+      <!-- <div class="second">
+        <img src="../images/yellow tap.svg" alt="" width="50vw" />
+      </div> -->
+    </div>
+      <!-- <div class="about" id="about">
+        <div class="leftContent">
+          <img src="../images/Shapes.svg" alt="" />
+
+          <div class="insideimg">
+            <h1>Who</h1>
+            <div class="insidetxt">
+              <h1>We</h1>
+            </div>
+
+            <h1>Are ?</h1>
+
+            <div class="wedo">
+              <p>
+                Complain Connect streamlines the complaint <br />
+                process by offering a user-friendly interface for <br />
+                residents to lodge their concerns efficiently.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="rightContent">
+          <div id="star">
+            <img src="../images/star.svg" alt="" height="100px" />
+          </div>
+
+          <div>
+            <p>
+              Complain Connect specializes in managing <br />
+              complaint portals for societies. Our business <br />
+              revolves around providing a platform where <br />
+              residents can submit complaints related to <br />
+              various issues within their society, such as <br />
+              maintenance, security, or facilities.
+            </p>
+          </div>
+
+          <div class="btm-text">
+            <img src="../images/star.svg" alt="" height="100px" />
+
+            <div class="btm_div">
+              <div class="highlight_txt">
+                <h1 id="what">What</h1>
+              </div>
+
+              <h1>We</h1>
+
+              <h1>Do ?</h1>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <style>
+        #about {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          min-height: 70vh;
+          width: 100%;
+
+          /*background-color: #f5f5f5;*/
+        }
+
+        #aboutleft {
+          width: 50%;
+          height: 100%;
+          /* background-color: #e3651d;*/
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        #aboutleft h1 {
+          font-size: 10vh;
+        }
+        #aboutright {
+          display: flex;
+          width: 50%;
+          height: 100%;
+          /* background-color: #47bd10;*/
+          /*justify-content: center;
+          align-items: center;*/
+          flex-wrap: wrap;
+        }
+        #aboutright p {
+          font-size: 38px;
+        }
+
+        @media screen and (max-width: 991px) {
+          #about {
+            flex-direction: column;
+            height: auto;
+          }
+          #aboutleft {
+            width: 100%;
+            height: 50%;
+          }
+          #aboutright {
+            /* order: -1;*/
+            width: 100%;
+            height: 50%;
+          }
+          .sleft {
+            order: 1;
+          }
+        }
+        /* Media query for screens with a maximum width of 600px */
+        @media screen and (max-width: 600px) {
+          #aboutleft h1 {
+            font-size: 4vh; /* Adjust font size for even smaller screens */
+          }
+          #aboutright p {
+            font-size: 25px; /* Adjust font size for even smaller screens */
+          }
+        }
+      </style>
+
+      <div id="about">
+        <!-- <img src="./img/Shapes.png" style="height:100%"> -->
+        <div id="aboutleft">
+          <!-- <img src="../images/Shapes.svg" style="z-index:0"> -->
+          <h1>
+            Who<br /><mark style="background-color: #ffb219; color: #ffffff"
+              >We</mark
+            ><br />Are?
+          </h1>
+          <img src="../images/Wave.svg" alt="" srcset="" />
+        </div>
+        <div id="aboutright">
+          <style>
+            .top {
+              width: 100%;
+              height: auto;
+              display: flex;
+              align-items: flex-end;
+            }
+            .bottom {
+              padding: 0 30px;
+              width: 100%;
+              height: 50%;
+              margin-top: 30px;
+            }
+          </style>
+          <div class="top">
+            <img src="../images/star.svg" style="margin-left: 30px" alt="" />
+          </div>
+          <div class="bottom">
+            <p style="text-align: left">
+              Complain Connect specializes in managing <br />
+              complaint portals for societies. Our business <br />
+              revolves around providing a platform where <br />
+              residents can submit complaints related to <br />
+              various issues within their society, such as <br />
+              maintenance, security, or facilities.
+            </p>
+          </div>
+          <!-- <img src="../images/star.svg" alt="">
+          <p>
+            Complain Connect specializes in managing complaint portals for
+            societies. Our business revolves around providing a platform where
+            residents can submit complaints related to various issues within their
+            society, such as maintenance, security, or facilities.
+          </p> -->
+        </div>
+      </div>
+
+      <style>
+        #service {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          min-height: 70vh;
+          width: 100%;
+
+          /*background-color: #f5f5f5;*/
+        }
+
+        #serviceleft {
+          width: 50%;
+          height: 100%;
+          /* background-color: #e3651d;*/
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        #serviceright h1 {
+          font-size: 10vh;
+        }
+        #serviceright {
+          justify-content: center;
+          display: flex;
+          width: 50%;
+          height: 100%;
+          /* background-color: #47bd10;*/
+          /*justify-content: center;
+          align-items: center;*/
+          flex-wrap: wrap;
+        }
+        #serviceleft p {
+          font-size: 38px;
+        }
+
+        @media screen and (max-width: 991px) {
+          #service {
+            flex-direction: column;
+            height: auto;
+          }
+          #serviceleft {
+            width: 100%;
+            height: 50%;
+          }
+          #serviceright {
+            /* order: -1;*/
+            width: 100%;
+            height: 50%;
+          }
+          .sleft {
+            order: 1;
+          }
+        }
+        /* Media query for screens with a maximum width of 600px */
+        @media screen and (max-width: 600px) {
+          #serviceright h1 {
+            font-size: 4vh; /* Adjust font size for even smaller screens */
+          }
+          #serviceleft p {
+            font-size: 25px; /* Adjust font size for even smaller screens */
+          }
+        }
+      </style>
+
+      <div id="service">
+        <!-- <img src="./img/Shapes.png" style="height:100%"> -->
+        <div id="serviceleft">
+          <!-- <img src="../images/Shapes.svg" style="z-index:0"> -->
+          <p style="text-align: left">
+            Complain Connect streamlines the complaint<br />
+            process by offering a user-friendly interface for<br />
+            residents to lodge their concerns efficiently.
+          </p>
+        </div>
+        <div id="serviceright">
+        
+          <h1>
+            <img src="../images/star.svg" alt=""> <br>
+            <mark style="background-color: #ffb219; color: #ffffff">What</mark
+            ><br />We<br />Do?
+          </h1>
+        </div>
+       
+      </div>
+    </div>
+
+    <style>
+        #getintouch  {
+          display: flex;
+          flex-direction: column;
+      ;
+      margin-top: 50px;
+    
+          justify-content:flex-start;
+          align-items: center;
+          height: auto;
+          width: 100%;
+          /*background-color: #31ccff;*/
+          color: white;
+        }
+      
+        #getintouch_info {
+          display: flex;
+    
+         flex-wrap: wrap;
+          justify-content: center;
+          margin-top: 20px;
+          width: 90%;
+   
+        }
+        /*#innerservices {
+        
+         /* display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100%;
+          width: 20%;
+          background-color: green;
+        margin: 0 50px;
+          border-radius: 10px;
+    
+          flex: 0 0 calc(20% - 20px); /* Set width for each card 
+      height: 150px; /* Set height as needed 
+      margin: 10px; /* Adjust margin as needed 
+      background-color: green;
+      border-radius: 10px;
+        }*/
+         /* Media query for smaller screen sizes */
+    /*@media screen and (max-width: 768px) {
+      #innerservices {
+        flex-basis: calc(50% - 20px); /* Two cards per row on smaller screens 
+      }
+    }
+    */
+    
+    #innergetintouch {
+     /* 33.33%*/
+      flex: 0 0 calc(25% - 20px); /* Set width for each card */
+      height: 400px; /* Set height as needed */
+      margin: 10px; /* Adjust margin as needed */
+      /*background-color: #bfd2f8;*/
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    
+    /* Media query for smaller screen sizes */
+    @media screen and (max-width: 768px) {
+      #innergetintouch {
+        flex-basis: calc(50% - 20px); /* Two cards per row */
+      }
+    }
+    
+    /* Media query for even smaller screen sizes */
+    @media screen and (max-width: 576px) {
+      #innergetintouch {
+        flex-basis: calc(100% - 20px); /* One card per row */
+      }
+    }
+
+    #availabletests_info {
+        display: flex;
+  
+       flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+        width: 90%;
+      
+      }
+      </style>
+      <div id="getintouch">
+        
+    
+        <div id="availabletests_info">
+         <!-- <div id="innerservices"></div> -->
+         <div id="innergetintouch">
+            <h1>
+                Light
+            </h1>
+            <img src="../images/light.svg" alt="">
+        <h3>
+            Light Not Working ?
+        </h3>
+        </div>
+         <div id="innergetintouch"> <h1>
+              Plumbing
+            </h1>
+            <img src="../images/plumber.svg" alt="">
+        <h3>
+            Pipe Leakage ?
+        </h3></div>
+         <div id="innergetintouch"> <h1>
+              Society Problems
+            </h1>
+            <img src="../images/swimmimg.svg" alt="">
+        <h3>
+            Swiming Pool Not Clean ?
+        </h3></div>
+         <div id="innergetintouch"> <h1>
+                Property Damage
+            </h1>
+            <img src="../images/carpenter.svg" style="width: 375px;height:255px;" alt="">
+        <h3>
+            Carpenter Work ?
+        </h3></div>
+         <!-- <div id="inneravailabletests"><img src="./img/Group 9.png" alt=""></div> -->
+         <!-- <div id="inneravailabletests"><img src="./img/Group 9.png" alt=""></div> -->
+         <!-- <div id="innerservices"></div> -->
+    
+        </div>
+      </div>
+<style>
+    form {
+       
+        width: 460px;
+        margin: 100px auto 0;
+        
+        padding: 0 0 40px;
+        border-radius: 3px;
+        
+      }
+      
+      form input::-webkit-input-placeholder,
+      form textarea::-webkit-input-placeholder {
+        font: inherit;
+        -webkit-transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out, visibility 0.3s ease-in-out;
+        transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out, visibility 0.3s ease-in-out;
+      }
+      
+      form input,
+      form  textarea {
+        font: inherit;
+        font-size: 0.8em;
+        margin: 28px 25px 10px;
+        width: 400px;
+        display: block;
+        border: none;
+        padding: 20px 0 10px;
+        border-bottom: solid 1px #ffb219;
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #ffb219 4%);
+        background-position: -400px 0;
+        background-size: 400px 100%;
+        background-repeat: no-repeat;
+        transition: background 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+        resize: none;
+        overflow: hidden;
+      }
+      form  input:focus::-webkit-input-placeholder,
+      form  textarea:focus::-webkit-input-placeholder {
+        color: #ffb219;
+      }
+        form textarea:focus,
+        form input:focus, input:valid,
+        form textarea:valid {
+        box-shadow: none;
+        outline: none;
+        background-position: 0 0;
+      }
+        form input:focus::-webkit-input-placeholder,   form input:valid::-webkit-input-placeholder,
+       form  textarea:focus::-webkit-input-placeholder,
+        form textarea:valid::-webkit-input-placeholder {
+        font-size: 0.8em;
+        transform: translateY(-20px);
+        visibility: visible !important;
+        opacity: 1;
+      }
+      
+        form input[type=email] {
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #ffb219 4%);
+        background-position: -400px 0;
+        background-repeat: no-repeat;
+        transition: border-bottom 0.3s ease, background 0.3s ease;
+      }
+       form  input[type=email] ~ span.validation-text {
+        position: absolute;
+        visibility: hidden;
+        font-family: "roboto", sans-serif;
+        font-size: 0.6em;
+        width: 400px;
+        margin-left: 25px;
+        margin-top: -5px;
+        color: white;
+        transition: color 0.3s ease-in-out;
+      }
+       form  input[type=email]:not([value=""])::-webkit-input-placeholder {
+        font-size: 0.8em;
+        transform: translateY(-20px);
+        visibility: visible !important;
+        opacity: 1;
+      }
+        form input[type=email]:not([value=""]):focus::-webkit-input-placeholder {
+        color: #ffb219;
+      }
+        form input[type=email]:not([value=""]):focus:not(:valid)::-webkit-input-placeholder {
+        color: #ffb219;
+      }
+       form  input[type=email]:focus {
+        background-position: 0 0;
+      }
+        form input[type=email]:focus:not(:valid):not([value=""]) {
+        border-bottom: solid 1px #ffb219;
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #ffb219 4%);
+      }
+        form input[type=email]:not(:focus):not(:valid):not([value=""]) {
+        border-bottom: solid 1px #ffb219;
+        background-position: 0 0;
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #ffb219 4%);
+      }
+       form  input[type=email]:not(:focus):not(:valid):not([value=""])::-webkit-input-placeholder {
+        color: #ffb219;
+      }
+       form  input[type=email]:not(:focus):not(:valid):not([value=""]) ~ span.validation-text {
+        visibility: visible;
+        color: #ffb219;
+      }
+      
+      .flex {
+        display: flex;
+        align-items: stretch;
+      }
+      .flex textarea {
+        line-height: 120%;
+      }
+</style>
+      <form id="contact">
+        <h1 id="contact" style="text-align: center;">Have a Question ?
+
+          </h1>
+          <p style="text-align: center;">
+            Feel free to contact us on <a href="mailto:thecomplaintconnect@gmail.com" style="color:gray"> thecomplaintconnect@gmail.com </a> 
+           or
+            write your message down below
+          </p>
+        <input placeholder="Name" type="text"  value="" required>
+        <input placeholder="Email address" type="email" onblur="this.setAttribute('value', this.value);" value="" required>
+        <span class="validation-text">Please enter a valid email address.</span>
+        <input placeholder="Location" type="text" value="" required>
+        <div class="flex">
+          <textarea placeholder="Message" rows="1" required></textarea>
+        </div>
+        <button style="width:400px;padding:6px; margin: 30px 0 0 25px;">Send</button>
+      </form>
+
+      <style>
+
+        
+footer {
+  width: 100%;
+  background-color: #121315;
+  color: #a7a7a7;
+  font-size: 16px;
+}
+
+footer .row {
+  padding: 1em 1em;
+}
+footer .row.primary {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  align-items: stretch;
+}
+footer .column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2em;
+  min-height: 15em;
+}
+footer h3 {
+  width: 100%;
+  text-align: left;
+  color: white;
+  font-size: 1.4em;
+  white-space: nowrap;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+footer li:not(:first-child) {
+  margin-top: 0.8em;
+}
+footer ul li a {
+  color: #a7a7a7;
+  text-decoration: none;
+}
+footer ul li a:hover {
+  color: #ffb219;
+}
+footer .abou p {
+  text-align: justify;
+  line-height: 2;
+  margin: 0;
+}
+footer input,
+footer button {
+  font-size: 1em;
+  padding: 1em;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+footer button {
+  background-color: #ffb219;
+  color: #ffffff;
+}
+footer div.social {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2.4em;
+  flex-direction: row;
+  margin-top: 0.5em;
+}
+footer .social i {
+  color: #bac6d9;
+}
+
+footer .copyright {
+  padding: 0.3em 1em;
+  background-color: #25262e;
+}
+.footer-menu {
+  float: left;
+  margin-top: 10px;
+}
+
+.footer-menu a {
+  color: #cfd2d6;
+  padding: 6px;
+
+  text-decoration: none;
+}
+.footer-menu a:hover {
+  color: #27bcda;
+}
+footer .copyright p {
+  font-size: 0.9em;
+  text-align: right;
+}
+@media screen and (max-width: 850px) {
+  .row.primary {
+    grid-template-columns: 1fr;
+  }
+}
+
+      </style>
+
+      <footer>
+        <div class="row primary">
+          <div class="column abou">
+      
+            <h3>Complaint Connect</h3>
+      <br>
+            <p>
+              Welcome to our Integrated E-Complaint Platform! Streamline your complaint management process with our user-friendly solution. Submit, track, and resolve complaints seamlessly in residential and commercial buildings. 
+            </p>
+      
+            <div class="social">
+              <i class="fa-brands fa-facebook-square"></i>
+              <i class="fa-brands fa-instagram-square"></i>
+              <i class="fa-brands fa-twitter-square"></i>
+              <i class="fa-brands fa-youtube-square"></i>
+              <i class="fa-brands fa-whatsapp-square"></i>
+            </div>
+          </div>
+      
+          <div class="column links">
+            <h3>Important Links</h3>
+      <br>
+            <ul>
+      
+              <li>
+                <a href="#about">About Us</a>
+              </li>
+              <li>
+                <a href="#service">Services</a>
+              </li>
+              <li>
+                <a href="#contact">Contact Us</a>
+              </li>
+             
+            </ul>
+      
+          </div>
+      
+          <div class="column links">
+            <h3>Other Links</h3>
+            <br>
+            <ul>
+              <li>
+                <a href="../php/login.php">Log in</a>
+              </li>
+              <li>
+                <a href="../html/signup.html">Sign up</a>
+              </li>
+             
+            </ul>
+          </div>
+      
+          <div class="column subscribe">
+            <h3>Newsletter</h3>
+            <div>
+              <input type="email" placeholder="Your email id here" />
+              <button>Subscribe</button>
+            </div>
+      
+          </div>
+      
+        </div>
+      
+        <div class="row copyright">
+          <div class="footer-menu">
+      
+            <a href="../html/landingpage.html">Home</a>
+            <a href="#about">About us</a>
+            <a href="#service">Services</a>
+            <a href="#contact">Contact</a>
+            <a href="">Blog</a>
+            <a href="">Social</a>
+    
+          </div>
+          <p>Copyright &copy; 2024 Complaint Connect</p>
+        </div>
+      </footer>
+ 
+    <script>
+      var bulb = document.getElementById("bulb");
+
+      bulb.addEventListener("click", () => {
+        if (document.body.classList.contains("light-mode")) {
+          document.body.classList.remove("light-mode");
+          bulb.src = "../images/bulb off.svg";
+        } else {
+          document.body.classList.add("light-mode");
+
+          bulb.src = "../images/onBulb.svg";
+        }
+      });
+
+      var typed = new Typed("#typing", {
+        strings: ["Purposefully", "With Us", "The Movement"],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
